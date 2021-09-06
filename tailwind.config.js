@@ -3,9 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: theme => ({
-        'desktop-img': "url('/Users/arvinbenipal/my-app/src/images/desktop.jpeg')",
-      }),
+     
       animation:{
         blob: "blob 7s infinite",
       },
