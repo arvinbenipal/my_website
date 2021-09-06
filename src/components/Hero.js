@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from "react-router-dom";
+import { Link } from 'react-scroll';
 import Image from "../images/down.png"
 
 const Hero = () => {
@@ -9,7 +9,7 @@ const Hero = () => {
                 Arvin Benipal
             </h1>
  
-            <Link to="Content">
+            <Link to="Content" smooth="true" duration="800">
                 <img alt="down-arrow" className="absolute bottom-12 h-6 animate-bounce " src={Image}/> 
             </Link>
         </div>
