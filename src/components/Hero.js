@@ -4,8 +4,8 @@ import Image from "../images/down.png"
 
 const Hero = () => {
     return (
-        <div id="test" className="font-mono sm:bg-black lg:bg-white h-screen flex flex-col justify-center items-center">
-            <h1 className="sm:text-white lg:text-black lg:text-9xl text-6xl  mb-14">
+        <div id="test" className="h-screen font-mono bg-black lg:bg-white flex flex-col justify-center items-center">
+            <h1 className="text-white lg:text-black lg:text-9xl text-6xl  mb-14">
                 Arvin Benipal
             </h1>
  
