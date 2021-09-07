@@ -2,13 +2,13 @@ import React from 'react'
 
 const contact = () => {
     return (
-        <div id="Contact" className="overflow-hidden h-screen bg-gray-100">
+        <div id="Contact" className="overflow-hidden h-screen bg-black">
 
             <div className="flex justify-center">
-                <h1 className="text-3xl font-bold text-black font-mono pt-10 pb-6 tracking-widest"> Contact</h1>
+                <h1 className="text-3xl font-bold text-white font-mono pt-10 pb-6 tracking-widest"> Contact</h1>
             </div>
            
-            <div className="flex justify-center pt-4 font-mono text-xs">
+            <div className="flex justify-center pt-6 font-mono text-xs">
 
                 <div className="bg-blue-400 max-w-4xl p-8 rounded-3xl opacity-80">  
                     <div className="py-5">
