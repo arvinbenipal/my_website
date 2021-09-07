@@ -2,9 +2,9 @@ import React from 'react'
 
 const Menu = () => {
     return (
-        <div className="h-screen bg-gray-100">
+        <div className="h-screen overflow-hidden px-14 bg-gray-100">
             <div className="flex justify-center">
-                <h1 className="text-4xl font-black text-black font-mono pt-24"> MY SKILLS</h1>
+                <h1 className="text-4xl font-bold text-black font-mono py-24 tracking-widest"> MY SKILLS</h1>
             </div>
             <div className="relative w-full filter blur-2xl">
 
@@ -15,11 +15,11 @@ const Menu = () => {
 
             </div>
 
-            <div className="flex px-12 pt-24 lg:px-48 lg:pt-56">
+            <div className="lg:px-48 pt-16">
                     
 
-                <div className="flex relative m-12 p-10 bg-white rounded-3xl flex items-center justify-between shadow-lg opacity-80">
-                    <ul className="font-mono px-5">
+                <div className="flex p-10 bg-white rounded-3xl shadow-lg opacity-80">
+                    <ul className="font-mono text-sm lg:text-lg px-5">
                         <li className="pb-3">• Strong customer communication skills in fast paced work environment </li>
                         <li className="py-3">• Experience in various programming frameworks</li>
                         <li className="py-3">• Familiar with using/creating data structures with active practice in Java programming language</li>
@@ -27,7 +27,7 @@ const Menu = () => {
                         <li className="py-3">• Worked with physical digital electronics as a part of academic courses</li>
                     </ul>
 
-                    <ul className="font-mono px-5">
+                    <ul className="font-mono text-sm lg:text-lg px-5">
                         <li className="pb-5">• Strong knowledge in object oriented programming using languages such as C/C+ + and python </li>
                         <li className="py-5">• Experience with using headsets to complete orders and communicate with staff</li>
                         <li className="py-5">• Translated concepts into user flows, wireframes, mockups and prototypes to promote positive intuitive designs</li>
