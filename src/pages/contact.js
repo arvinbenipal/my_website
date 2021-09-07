@@ -2,13 +2,13 @@ import React from 'react'
 
 const contact = () => {
     return (
-        <div id="Contact" className="h-screen bg-gray-100">
+        <div id="Contact" className="overflow-hidden h-screen bg-gray-100">
 
             <div className="flex justify-center">
-                <h1 className="text-4xl font-bold text-black font-mono py-24 tracking-widest"> Contact</h1>
+                <h1 className="text-3xl font-bold text-black font-mono pt-10 pb-6 tracking-widest"> Contact</h1>
             </div>
            
-            <div className="flex justify-center pt-24 font-mono text-sm">
+            <div className="flex justify-center pt-4 font-mono text-xs">
 
                 <div className="bg-blue-400 max-w-4xl p-8 rounded-3xl opacity-80">  
                     <div className="py-5">
@@ -21,7 +21,7 @@ const contact = () => {
                         <input className="w-full p-3 pb-28 placeholder-gray-400 tracking-wider" placeholder="Message"></input>
                     </div>
                     <div className="py-5">
-                        <button className="bg-black text-white p-3 px-48 rounded-full w-full hover:bg-gray-800">Send</button>
+                        <button className="bg-black text-white p-3 px-36 md:px-48 rounded-full w-full hover:bg-gray-800">Send</button>
                     </div>    
                 </div>
 
