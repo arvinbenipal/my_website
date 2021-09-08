@@ -10,7 +10,7 @@ const contact = () => {
            
             <div className="flex justify-center pt-6 font-mono text-xs">
 
-                <div className="bg-blue-400 max-w-4xl p-8 rounded-3xl opacity-80">  
+                <div className="bg-gray-300 max-w-4xl p-8 rounded-3xl opacity-80">  
                     <div className="py-5">
                         <input className="w-full p-3 placeholder-gray-400 tracking-wider" placeholder="Name"></input>
                     </div>
