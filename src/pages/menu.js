@@ -16,7 +16,7 @@ const Menu = () => {
 
             </div>
 
-            <div className="lg:px-48 pt-8 md:pt-14">
+            <div className="lg:px-48 pt-8 md:px-24 md:pt-14">
                     
 
                 <div className="flex p-6 bg-gray-800 rounded-3xl shadow-lg opacity-75">
